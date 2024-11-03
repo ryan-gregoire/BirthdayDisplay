@@ -1,7 +1,7 @@
 const Today = new Date();
 const birthMonth = new Date();
 
-let currentDate = Today.getDate();
+let currentDate = Today.getDate() + 14 - 1;
 let birthdayMonth = birthMonth.setMonth(11);
 const birthdayMonths = birthMonth.getMonth();
 let birthdayDay = birthMonth.getDate() + 16 - 1;
